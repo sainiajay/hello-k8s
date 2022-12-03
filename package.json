@@ -1,0 +1,28 @@
+{
+  "name": "hello-k8s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainiajay/hello-k8s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sainiajay/hello-k8s/issues"
+  },
+  "homepage": "https://github.com/sainiajay/hello-k8s#readme",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@types/ws": "^8.5.3",
+    "typescript": "^4.9.3"
+  }
+}
