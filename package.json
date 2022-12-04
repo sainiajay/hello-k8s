@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/sainiajay/hello-k8s#readme",
   "dependencies": {
-    "@kubernetes/client-node": "^0.17.1"
+    "@kubernetes/client-node": "^0.17.1",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
     "@types/node": "^18.11.10",
     "@types/ws": "^8.5.3",
     "typescript": "^4.9.3"
